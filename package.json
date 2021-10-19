@@ -48,6 +48,7 @@
     "parcel": "^2.0.0-beta.2"
   },
   "scripts": {
+    "start": "node main.js"
     "build": "eslint assets/js/*.js && parcel build assets/html/index.html --dist-dir dist",
     "dev": "parcel build assets/html/index.html --no-optimize --dist-dir dist"
   },
