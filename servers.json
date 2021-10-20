@@ -1,22 +1,138 @@
 [
-	{
-		"name": "Hypixel",
-		"ip": "mc.hypixel.net",
-		"type": "PC"
-	},
-	{
-		"name": "HiveMC",
-		"ip": "play.hivemc.com",
-		"type": "PC"
-	},
-	{
-		"name": "Mineplex",
-		"ip": "us.mineplex.com",
-		"type": "PC"
-	},
-	{
-		"name": "CubeCraft",
-		"ip": "play.cubecraft.net",
-		"type": "PC"
-	}
+    {
+        "name": "GreenWix",
+        "ip": "play.greenwix.fun",
+        "port": 19132,
+        "color": "#ec8008",
+        "favicon": "greenwix.png",
+        "type": "PE"
+    },
+    {
+        "name": "4PDA Network",
+        "ip": "4pdanetwork.ru",
+        "port": 19132,
+        "color": "#A874AB",
+        "favicon": "4pdanetwork.png",
+        "type": "PE"
+    },
+    {
+        "name": "BreadixWorld",
+        "ip": "play.breadixpe.ru",
+        "port": 19132,
+        "favicon": "breadixpe.png",
+        "color": "#176093",
+        "type": "PE"
+    },
+    {
+        "name": "VineMine",
+        "ip": "pe.vinemine.net",
+        "port": 19132,
+        "favicon": "vinemine.png",
+        "color": "#ffcb03",
+        "type": "PE"
+    },
+    {
+        "name": "DoshikMine",
+        "ip": "play.doshik.ru",
+        "port": 19132,
+        "favicon": "doshik.png",
+        "color": "#ac5e39",
+        "type": "PE"
+    },
+    {
+        "name": "OasysPE",
+        "ip": "oasys-pe.ru",
+        "port": 19132,
+        "favicon": "oasys-pe.png",
+        "color": "#609be1",
+        "type": "PE"
+    },
+    {
+        "name": "InMine",
+        "ip": "inmine.ru",
+        "port": 19132,
+        "favicon": "inmine.png",
+        "color": "#df44de",
+        "type": "PE"
+    },
+    {
+        "name": "MyPEX",
+        "ip": "mypex.ru",
+        "favicon": "mypex.png",
+        "color": "#0beaea",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "NexLand",
+        "ip": "nexland.ru",
+        "favicon": "nexland.png",
+        "color": "#f021b8",
+        "port": 19131,
+        "type": "PE"
+    },
+    {
+        "name": "AnanasMine",
+        "ip": "ananasmine.ru",
+        "favicon": "ananasmine.png",
+        "color": "#876b6e",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "Banana BE",
+        "ip": "bananape.be",
+        "favicon": "bananape.png",
+        "color": "#759663",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "RussianWorld",
+        "ip": "play.rwpe.ru",
+        "favicon": "rwpe.png",
+        "color": "#4a7d28",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "DragonWine",
+        "ip": "dragonwine.ru",
+        "favicon": "dragonwine.png",
+        "color": "#75496b",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "LootMC",
+        "ip": "lootmc.com",
+        "favicon": "dragonwine.png",
+        "color": "#1da97f",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "4Mine",
+        "ip": "4mine.ru",
+        "favicon": "4mine.png",
+        "color": "#6122c2",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "Phoenix",
+        "ip": "phoenix-pe.ru",
+        "favicon": "phoenix-pe.png",
+        "color": "#bb6af1",
+        "port": 19134,
+        "type": "PE"
+    },
+    {
+        "name": "Dragonfly",
+        "ip": "drpe.ru",
+        "favicon": "drpe.png",
+        "color": "#9be43d",
+        "port": 19132,
+        "type": "PE"
+    }
 ]
