@@ -106,7 +106,7 @@
     {
         "name": "LootMC",
         "ip": "lootmc.com",
-        "favicon": "dragonwine.png",
+        "favicon": "lootmc.png",
         "color": "#1da97f",
         "port": 19132,
         "type": "PE"
