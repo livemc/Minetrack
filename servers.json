@@ -142,13 +142,5 @@
         "color": "#9be43d",
         "port": 19132,
         "type": "PE"
-    },
-    {
-        "name": "CRPE 1.1.x",
-        "ip": "cristalix.be",
-        "favicon": "crpe.png",
-        "color": "#e49b0f",
-        "port": 19132,
-        "type": "PE"
     }
 ]
