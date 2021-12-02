@@ -131,7 +131,23 @@
         "name": "Dragonfly",
         "ip": "drpe.ru",
         "favicon": "drpe.png",
+        "color": "#9370d8",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "Cristalix BE",
+        "ip": "cristalix.pe",
+        "favicon": "cristalixpe.png",
         "color": "#9be43d",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "CRPE 1.1.x",
+        "ip": "cristalix.be",
+        "favicon": "crpe.png",
+        "color": "#e49b0f",
         "port": 19132,
         "type": "PE"
     }
