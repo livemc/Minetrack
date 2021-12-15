@@ -56,14 +56,6 @@
         "type": "PE"
     },
     {
-        "name": "MyPEX",
-        "ip": "mypex.ru",
-        "favicon": "mypex.png",
-        "color": "#0beaea",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
         "name": "NexLand",
         "ip": "nexland.ru",
         "favicon": "nexland.png",
@@ -124,7 +116,7 @@
         "ip": "phoenix-pe.ru",
         "favicon": "phoenix-pe.png",
         "color": "#bb6af1",
-        "port": 19134,
+        "port": 19132,
         "type": "PE"
     },
     {
