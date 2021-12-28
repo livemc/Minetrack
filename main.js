@@ -33,9 +33,13 @@ if (!config.serverGraphDuration) {
 if (!config.logToDatabase) {
   logger.log('warn', 'Database logging is not enabled. You can enable it by setting "logToDatabase" to true in config.json. This requires sqlite3 to be installed.')
 
-  app.handleReady()
+  app.handleReady().then(() => {
+
+  })
 } else {
   app.loadDatabase(() => {
-    app.handleReady()
+    app.handleReady().then(() => {
+
+    })
   })
 }
