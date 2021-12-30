@@ -9,16 +9,16 @@
 
 :root {
   --color-dark-gray: #A3A3A3;
-  --color-gold: #FFD700;
+  --color-gold: #0DA6E9;
   --color-dark-purple: #6c5ce7;
   --color-light-purple: #a29bfe;
   --color-dark-blue: #0984e3;
   --color-light-blue: #74b9ff;
 
-  --theme-color-dark: #3B3738;
-  --theme-color-light: #EBEBEB;
+  --theme-color-dark: #1E293B;
+  --theme-color-light: #F9FBFC;
 
-  --border-radius: 1px;
+  --border-radius: 10px;
 
   /* Light theme */
   --color-purple: var(--color-light-purple);
@@ -26,12 +26,12 @@
   --color-blue-inverted: var(--color-dark-blue);
   --background-color: var(--theme-color-light);
   --text-decoration-color: var(--theme-color-dark);
-  --text-color: #000;
+  --text-color: #0F172A;
   --text-color-inverted: #FFF;
 }
 
 body {
-  background: #212021;
+  background: #FFF;
   color: #FFF;
 }
 
@@ -42,12 +42,12 @@ body {
     --color-blue-inverted: var(--color-light-blue);
     --background-color: var(--theme-color-dark);
     --text-decoration-color: var(--theme-color-light);
-    --text-color: #FFF;
+    --text-color: #CBD5E1;
     --text-color-inverted: #000;
   }
 
   body {
-    background: #1c1b1c;
+    background: #0F172A;
     color: #FFF;
   }
 }
