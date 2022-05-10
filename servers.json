@@ -96,10 +96,10 @@
         "type": "PE"
     },
     {
-        "name": "LootMC",
+        "name": "LOOT MC",
         "ip": "lootmc.com",
         "favicon": "lootmc.png",
-        "color": "#1da97f",
+        "color": "#B858E6",
         "port": 19132,
         "type": "PE"
     },
