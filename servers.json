@@ -36,7 +36,7 @@
         "ip": "play.doshik.ru",
         "port": 19132,
         "favicon": "doshik.png",
-        "color": "#ac5e39",
+        "color": "#F50461",
         "type": "PE"
     },
     {
@@ -44,7 +44,7 @@
         "ip": "oasys-pe.ru",
         "port": 19132,
         "favicon": "oasys-pe.png",
-        "color": "#609be1",
+        "color": "#FAD808",
         "type": "PE"
     },
     {
@@ -52,7 +52,7 @@
         "ip": "inmine.ru",
         "port": 19132,
         "favicon": "inmine.png",
-        "color": "#df44de",
+        "color": "#DE1D28",
         "type": "PE"
     },
     {
@@ -107,7 +107,7 @@
         "name": "4Mine",
         "ip": "4mine.ru",
         "favicon": "4mine.png",
-        "color": "#6122c2",
+        "color": "#4DB61B",
         "port": 19132,
         "type": "PE"
     },
@@ -131,7 +131,7 @@
         "name": "HyPE Network",
         "ip": "hy-pe.ru",
         "favicon": "hypePE.png",
-        "color": "#7A7666",
+        "color": "#FD00FA",
         "port": 19132,
         "type": "PE"
     }
