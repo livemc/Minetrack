@@ -128,6 +128,14 @@
         "type": "PE"
     },
     {
+        "name": "Cristalix FUN",
+        "ip": "cristalix.be",
+        "favicon": "cristalixfun.png",
+        "color": "#002137",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
         "name": "HyPE Network",
         "ip": "hy-pe.ru",
         "favicon": "hypePE.png",
