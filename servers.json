@@ -2,7 +2,7 @@
     {
         "name": "GreenWix",
         "ip": "play.greenwix.fun",
-        "port": 6000,
+        "port": 19132,
         "color": "#ec8008",
         "favicon": "greenwix.png",
         "type": "PE"
@@ -124,6 +124,14 @@
         "ip": "cristalix.pe",
         "favicon": "cristalixpe.png",
         "color": "#9be43d",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "Cristalix FUN",
+        "ip": "cristalix.be",
+        "favicon": "cristalixfun.png",
+        "color": "#4A30F5",
         "port": 19132,
         "type": "PE"
     },
