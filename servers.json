@@ -1,10 +1,10 @@
 [
     {
-        "name": "GreenWix",
-        "ip": "play.gr-wix.ru",
+        "name": "4Mine",
+        "ip": "4mine.ru",
+        "favicon": "4mine.png",
+        "color": "#4DB61B",
         "port": 19132,
-        "color": "#ec8008",
-        "favicon": "greenwix.png",
         "type": "PE"
     },
     {
@@ -16,35 +16,51 @@
         "type": "PE"
     },
     {
-        "name": "BreadixWorld",
-        "ip": "play.breadixpe.ru",
+        "name": "AnanasMine",
+        "ip": "ananasmine.ru",
+        "favicon": "ananasmine.png",
+        "color": "#876B6E",
         "port": 19132,
-        "favicon": "breadixpe.png",
-        "color": "#176093",
         "type": "PE"
     },
     {
-        "name": "VineMine",
-        "ip": "pe.vinemine.net",
+        "name": "Cristalix",
+        "ip": "cristalix.pe",
+        "favicon": "cristalix.png",
+        "color": "#9BE43D",
         "port": 19132,
-        "favicon": "vinemine.png",
-        "color": "#ffcb03",
         "type": "PE"
     },
     {
         "name": "DoshikMine",
-        "ip": "play.doshik.ru",
-        "port": 19132,
-        "favicon": "doshik.png",
+        "ip": "doshik.net",
+        "port": 19133,
+        "favicon": "doshikmine.png",
         "color": "#F50461",
         "type": "PE"
     },
     {
-        "name": "OasysPE",
-        "ip": "oasys-pe.ru",
+        "name": "DragonWine",
+        "ip": "dragonwine.ru",
+        "favicon": "dragonwine.png",
+        "color": "#75496B",
         "port": 19132,
-        "favicon": "oasys-pe.png",
-        "color": "#FAD808",
+        "type": "PE"
+    },
+    {
+        "name": "GreenWix",
+        "ip": "play.greenwix.fun",
+        "port": 19132,
+        "color": "#FF7200",
+        "favicon": "greenwix.png",
+        "type": "PE"
+    },
+    {
+        "name": "HyPE Network",
+        "ip": "hy-pe.ru",
+        "favicon": "hypenetwork.png",
+        "color": "#FD00FA",
+        "port": 19132,
         "type": "PE"
     },
     {
@@ -56,46 +72,6 @@
         "type": "PE"
     },
     {
-        "name": "NexLand",
-        "ip": "nexland.ru",
-        "favicon": "nexland.png",
-        "color": "#f021b8",
-        "port": 19131,
-        "type": "PE"
-    },
-    {
-        "name": "AnanasMine",
-        "ip": "ananasmine.ru",
-        "favicon": "ananasmine.png",
-        "color": "#876b6e",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
-        "name": "Banana BE",
-        "ip": "51.83.205.24",
-        "favicon": "bananape.png",
-        "color": "#759663",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
-        "name": "RussianWorld",
-        "ip": "play.rwpe.ru",
-        "favicon": "rwpe.png",
-        "color": "#4a7d28",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
-        "name": "DragonWine",
-        "ip": "dragonwine.ru",
-        "favicon": "dragonwine.png",
-        "color": "#75496b",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
         "name": "LOOT MC",
         "ip": "lootmc.com",
         "favicon": "lootmc.png",
@@ -104,43 +80,51 @@
         "type": "PE"
     },
     {
-        "name": "4Mine",
-        "ip": "4mine.ru",
-        "favicon": "4mine.png",
-        "color": "#4DB61B",
+        "name": "MCBE.ONE",
+        "ip": "mcbe.one",
+        "favicon": "mcbeone.png",
+        "color": "#FB8844",
         "port": 19132,
         "type": "PE"
     },
     {
-        "name": "Phoenix",
-        "ip": "phoenix-pe.ru",
-        "favicon": "phoenix-pe.png",
-        "color": "#bb6af1",
+        "name": "NexLand",
+        "ip": "nexland.ru",
+        "favicon": "nexland.png",
+        "color": "#F21B8",
+        "port": 19131,
+        "type": "PE"
+    },
+    {
+        "name": "OasysPE",
+        "ip": "oasys-pe.com",
+        "port": 19132,
+        "favicon": "oasys-pe.png",
+        "color": "#FAD808",
+        "type": "PE"
+    },
+    {
+        "name": "RussianWorld",
+        "ip": "play.rwpe.ru",
+        "favicon": "russianworld.png",
+        "color": "#4A7D28",
         "port": 19132,
         "type": "PE"
     },
     {
-        "name": "Cristalix",
-        "ip": "cristalix.pe",
-        "favicon": "cristalixpe.png",
-        "color": "#9be43d",
+        "name": "TimeCrack",
+        "ip": "play.timecrack.net",
+        "favicon": "timecrack.png",
+        "color": "#FFCCFF",
         "port": 19132,
         "type": "PE"
     },
     {
-        "name": "Cristalix FUN",
-        "ip": "cristalix.be",
-        "favicon": "cristalixfun.png",
-        "color": "#4A30F5",
+        "name": "VineMine",
+        "ip": "pe.vinemine.net",
         "port": 19132,
-        "type": "PE"
-    },
-    {
-        "name": "HyPE Network",
-        "ip": "hy-pe.ru",
-        "favicon": "hypePE.png",
-        "color": "#FD00FA",
-        "port": 19132,
+        "favicon": "vinemine.png",
+        "color": "#FFCB03",
         "type": "PE"
     }
 ]
