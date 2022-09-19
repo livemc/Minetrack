@@ -104,6 +104,14 @@
         "type": "PE"
     },
     {
+        "name": "Phoenix",
+        "ip": "phoenix-pe.ru",
+        "port": 19132,
+        "favicon": "phoenix.png",
+        "color": "#DF45F5",
+        "type": "PE"
+    },
+    {
         "name": "RussianWorld",
         "ip": "play.rwpe.ru",
         "favicon": "russianworld.png",
