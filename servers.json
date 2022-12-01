@@ -134,5 +134,13 @@
         "favicon": "vinemine.png",
         "color": "#FFCB03",
         "type": "PE"
+    },
+    {
+        "name": "BreadixWorld",
+        "ip": "play.breadixpe.ru",
+        "port": 19132,
+        "favicon": "breadixpe.png",
+        "color": "#ffcc00",
+        "type": "PE"
     }
 ]
