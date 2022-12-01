@@ -34,7 +34,7 @@
     {
         "name": "DoshikMine",
         "ip": "doshik.net",
-        "port": 19133,
+        "port": 19132,
         "favicon": "doshikmine.png",
         "color": "#F50461",
         "type": "PE"
@@ -136,6 +136,13 @@
         "type": "PE"
     },
     {
+        "name": "BreadixWorld",
+        "ip": "play.breadixpe.ru",
+        "port": 19132,
+        "favicon": "breadixpe.png",
+        "color": "#ffcc00",
+        "type": "PE"
+    }, {
         "name": "BreadixWorld",
         "ip": "play.breadixpe.ru",
         "port": 19132,
