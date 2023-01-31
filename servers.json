@@ -24,6 +24,14 @@
         "type": "PE"
     },
     {
+        "name": "BreadixWorld",
+        "ip": "play.breadixpe.ru",
+        "port": 19132,
+        "favicon": "breadix.png",
+        "color": "#ffcc00",
+        "type": "PE"
+    },
+    {
         "name": "Cristalix",
         "ip": "cristalix.pe",
         "favicon": "cristalix.png",
@@ -125,14 +133,6 @@
         "port": 19132,
         "favicon": "vinemine.png",
         "color": "#FFCB03",
-        "type": "PE"
-    },
-    {
-        "name": "BreadixWorld",
-        "ip": "play.breadixpe.ru",
-        "port": 19132,
-        "favicon": "breadix.png",
-        "color": "#ffcc00",
         "type": "PE"
     }
 ]
