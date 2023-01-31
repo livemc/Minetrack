@@ -80,14 +80,6 @@
         "type": "PE"
     },
     {
-        "name": "MCBE.ONE",
-        "ip": "mcbe.one",
-        "favicon": "mcbeone.png",
-        "color": "#FB8844",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
         "name": "NexLand",
         "ip": "nexland.ru",
         "favicon": "nexland.png",
