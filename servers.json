@@ -24,6 +24,14 @@
         "type": "PE"
     },
     {
+        "name": "Antralia",
+        "ip": "antralia.net",
+        "favicon": "antralia.png",
+        "color": "#C8A8B7",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
         "name": "BreadixWorld",
         "ip": "play.breadixpe.ru",
         "port": 19132,
@@ -88,10 +96,26 @@
         "type": "PE"
     },
     {
+        "name": "IronMine",
+        "ip": "pe.ironmine.fun",
+        "favicon": "ironmine.png",
+        "color": "#5CFE36",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
         "name": "LOOT MC",
         "ip": "lootmc.com",
         "favicon": "lootmc.png",
         "color": "#B858E6",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "MineFun",
+        "ip": "minefun.ru",
+        "favicon": "minefun.png",
+        "color": "#F95F3D",
         "port": 19132,
         "type": "PE"
     },
@@ -124,6 +148,14 @@
         "ip": "play.rwpe.ru",
         "favicon": "russianworld.png",
         "color": "#4A7D28",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
+        "name": "SkillMine",
+        "ip": "skill-mine.ru",
+        "favicon": "skillmine.png",
+        "color": "#FCFF00",
         "port": 19132,
         "type": "PE"
     },
