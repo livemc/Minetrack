@@ -64,6 +64,14 @@
         "type": "PE"
     },
     {
+        "name": "Dygers",
+        "ip": "dygers.ru",
+        "favicon": "dygers.png",
+        "color": "#5D1466",
+        "port": 19132,
+        "type": "PE"
+    },
+    {
         "name": "FrizMine",
         "ip": "frizmine.ru",
         "favicon": "frizmine.png",
@@ -93,6 +101,14 @@
         "port": 19132,
         "favicon": "inmine.png",
         "color": "#DE1D28",
+        "type": "PE"
+    },
+    {
+        "name": "inSky",
+        "ip": "insky.adji.party",
+        "port": 19132,
+        "favicon": "insky.png",
+        "color": "#CB322A",
         "type": "PE"
     },
     {
