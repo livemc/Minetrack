@@ -56,14 +56,6 @@
         "type": "PE"
     },
     {
-        "name": "DragonWine",
-        "ip": "dragonwine.ru",
-        "favicon": "dragonwine.png",
-        "color": "#75496B",
-        "port": 19132,
-        "type": "PE"
-    },
-    {
         "name": "Dygers",
         "ip": "dygers.ru",
         "favicon": "dygers.png",
