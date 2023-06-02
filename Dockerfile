@@ -10,6 +10,7 @@ RUN chmod +x /sbin/tini
 RUN apt-get update \
  && apt-get install --quiet --yes --no-install-recommends sqlite3 \
  && apt-get install python -y \
+ && apt-get install cmake --yes \
  && apt-get clean --quiet --yes \
  && apt-get autoremove --quiet --yes \
  && rm -rf /var/lib/apt/lists/*
