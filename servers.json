@@ -5,7 +5,10 @@
         "favicon": "4mine.png",
         "color": "#4DB61B",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 0,
+        "vkId": 192507019
     },
     {
         "name": "4PDA Network",
@@ -13,7 +16,10 @@
         "port": 19132,
         "color": "#A874AB",
         "favicon": "4pdanetwork.png",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 1,
+        "vkId": 55034095
     },
     {
         "name": "AnanasMine",
@@ -21,7 +27,10 @@
         "favicon": "ananasmine.png",
         "color": "#876B6E",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 2,
+        "vkId": 187931096
     },
     {
         "name": "Antralia",
@@ -29,7 +38,10 @@
         "favicon": "antralia.png",
         "color": "#C8A8B7",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 19,
+        "vkId": 185728642
     },
     {
         "name": "BreadixWorld",
@@ -37,7 +49,10 @@
         "port": 19132,
         "favicon": "breadix.png",
         "color": "#472031",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 16,
+        "vkId": 96691983
     },
     {
         "name": "Cristalix",
@@ -45,7 +60,10 @@
         "favicon": "cristalix.png",
         "color": "#9BE43D",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 3,
+        "vkId": 88708941
     },
     {
         "name": "DoshikMine",
@@ -53,7 +71,10 @@
         "port": 19132,
         "favicon": "doshikmine.png",
         "color": "#F50461",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 17,
+        "vkId": 120628378
     },
     {
         "name": "Dygers",
@@ -61,7 +82,10 @@
         "favicon": "dygers.png",
         "color": "#5D1466",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 23,
+        "vkId": 39707152
     },
     {
         "name": "FrizMine",
@@ -69,7 +93,10 @@
         "favicon": "frizmine.png",
         "color": "#3386E3",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 18,
+        "vkId": 148855493
     },
     {
         "name": "GreenWix",
@@ -77,7 +104,10 @@
         "port": 19132,
         "color": "#FF7200",
         "favicon": "greenwix.png",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 6,
+        "vkId": 96615701
     },
     {
         "name": "HyPE Network",
@@ -85,7 +115,10 @@
         "favicon": "hypenetwork.png",
         "color": "#FD00FA",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 7,
+        "vkId": 140142795
     },
     {
         "name": "InMine",
@@ -93,7 +126,10 @@
         "port": 19132,
         "favicon": "inmine.png",
         "color": "#DE1D28",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 8,
+        "vkId": 170551284
     },
     {
         "name": "inSky",
@@ -101,7 +137,10 @@
         "port": 19132,
         "favicon": "insky.png",
         "color": "#CB322A",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 24,
+        "vkId": 100046228
     },
     {
         "name": "IronMine",
@@ -109,7 +148,10 @@
         "favicon": "ironmine.png",
         "color": "#5CFE36",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 21,
+        "vkId": 175029127
     },
     {
         "name": "LOOT MC",
@@ -117,7 +159,10 @@
         "favicon": "lootmc.png",
         "color": "#B858E6",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 9,
+        "vkId": 165642681
     },
     {
         "name": "MineFun",
@@ -125,7 +170,10 @@
         "favicon": "minefun.png",
         "color": "#F95F3D",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 20,
+        "vkId": 184800263
     },
     {
         "name": "NexLand",
@@ -133,7 +181,10 @@
         "favicon": "nexland.png",
         "color": "#F21B8",
         "port": 19131,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 11,
+        "vkId": 153740237
     },
     {
         "name": "OasysPE",
@@ -141,7 +192,10 @@
         "port": 19132,
         "favicon": "oasys-pe.png",
         "color": "#FAD808",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 12,
+        "vkId": 75215697
     },
     {
         "name": "Phoenix",
@@ -149,7 +203,10 @@
         "port": 19132,
         "favicon": "phoenix.png",
         "color": "#DF45F5",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 25,
+        "vkId": 161433431
     },
     {
         "name": "RussianWorld",
@@ -157,7 +214,10 @@
         "favicon": "russianworld.png",
         "color": "#4A7D28",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 13,
+        "vkId": 189641958
     },
     {
         "name": "SkillMine",
@@ -165,7 +225,10 @@
         "favicon": "skillmine.png",
         "color": "#FCFF00",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 22,
+        "vkId": 163380889
     },
     {
         "name": "TimeCrack",
@@ -173,7 +236,10 @@
         "favicon": "timecrack.png",
         "color": "#FFCCFF",
         "port": 19132,
-        "type": "PE"
+        "type": "PE",
+
+        "id": 14,
+        "vkId": 141932597
     },
     {
         "name": "VineMine",
@@ -181,6 +247,9 @@
         "port": 19132,
         "favicon": "vinemine.png",
         "color": "#FFCB03",
-        "type": "PE"
+        "type": "PE",
+
+        "id": 15,
+        "vkId": 108607290
     }
 ]
