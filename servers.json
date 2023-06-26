@@ -48,7 +48,7 @@
         "ip": "play.breadixpe.ru",
         "port": 19132,
         "favicon": "breadix.png",
-        "color": "#472031",
+        "color": "#DBDC63",
         "type": "PE",
 
         "id": 16,
@@ -70,7 +70,7 @@
         "ip": "doshik.net",
         "port": 19132,
         "favicon": "doshikmine.png",
-        "color": "#F50461",
+        "color": "#803190",
         "type": "PE",
 
         "id": 17,
@@ -91,7 +91,7 @@
         "name": "FrizMine",
         "ip": "frizmine.ru",
         "favicon": "frizmine.png",
-        "color": "#3386E3",
+        "color": "#7853FF",
         "port": 19132,
         "type": "PE",
 
@@ -102,7 +102,7 @@
         "name": "GreenWix",
         "ip": "play.greenwix.fun",
         "port": 19132,
-        "color": "#FF7200",
+        "color": "#96A555",
         "favicon": "greenwix.png",
         "type": "PE",
 
@@ -146,7 +146,7 @@
         "name": "IronMine",
         "ip": "pe.ironmine.fun",
         "favicon": "ironmine.png",
-        "color": "#5CFE36",
+        "color": "#01FF53",
         "port": 19132,
         "type": "PE",
 
@@ -179,7 +179,7 @@
         "name": "NexLand",
         "ip": "nexland.fun",
         "favicon": "nexland.png",
-        "color": "#F21B8",
+        "color": "#70B346",
         "port": 19131,
         "type": "PE",
 
@@ -212,7 +212,7 @@
         "name": "RussianWorld",
         "ip": "play.rwpe.ru",
         "favicon": "russianworld.png",
-        "color": "#4A7D28",
+        "color": "#FFFFFF",
         "port": 19132,
         "type": "PE",
 
