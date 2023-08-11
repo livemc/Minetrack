@@ -22,6 +22,17 @@
         "vkId": 55034095
     },
     {
+        "name": "AézaMine",
+        "ip": "aezamine.com",
+        "favicon": "aezamine.png",
+        "color": "#FFFFFF",
+        "port": 19132,
+        "type": "PE",
+
+        "id": 26,
+        "vkId": 205040070
+    },
+    {
         "name": "AnanasMine",
         "ip": "ananasmine.ru",
         "favicon": "ananasmine.png",
