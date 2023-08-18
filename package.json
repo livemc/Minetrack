@@ -6,6 +6,7 @@
     "bedrock-protocol": "^3.8.0",
     "finalhandler": "^1.1.2",
     "mcping-js": "^1.4.1",
+    "mysql": "^2.18.1",
     "request": "2.88.2",
     "serve-static": "^1.14.1",
     "sqlite3": "^5.1.5",
