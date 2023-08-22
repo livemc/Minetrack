@@ -34,7 +34,8 @@
     "main": {
       "engines": {
         "browsers": "defaults"
-      }
+      },
+      "includeNodeModules": true
     }
   },
   "devDependencies": {
@@ -49,7 +50,6 @@
     "parcel": "^2.8.0"
   },
   "scripts": {
-    "start": "node main.js",
     "build": "eslint assets/js/*.js && parcel build assets/html/index.html --dist-dir dist",
     "dev": "parcel build assets/html/index.html --no-optimize --dist-dir dist"
   },
