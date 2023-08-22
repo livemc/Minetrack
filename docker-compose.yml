@@ -7,6 +7,7 @@ services:
     ports:
       - "80:8080"
     volumes:
+      - ./config.json:/usr/src/minetrack/config.json
       - ./database.sql:/usr/src/minetrack/database.sql
       - ./servers.json:/usr/src/minetrack/servers.json
       - ./favicons/:/usr/src/minetrack/favicons/
