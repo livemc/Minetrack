@@ -231,17 +231,6 @@
         "vkId": 189641958
     },
     {
-        "name": "SaveMe",
-        "ip": "saveme.pw",
-        "favicon": "saveme.png",
-        "color": "#DB1E1E",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 25,
-        "vkId": 202031976
-    },
-    {
         "name": "SkillMine",
         "ip": "skill-mine.ru",
         "favicon": "skillmine.png",
