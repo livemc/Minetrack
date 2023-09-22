@@ -11,8 +11,22 @@
 		"enabled": false,
 		"interval": 3600000
 	},
+
+	"//first_comment":  "Set default data provider for Minetrack",
+	"//second_comment": "- mysql (MYSQL Database)",
+	"//third_comment": "- sqlite3 (SQLITe3 Database)",
+	"data-provider": "sqlite3",
+
+	"mysql-settings": {
+		"host": "livemc.loveyou.all",
+		"port": 3306,
+		"user": "YourUsernameGoesHere",
+		"password": "YourPasswordGoesHere",
+		"db": "YourDBNameGoesHere"
+	},
 	"logFailedPings": true,
 	"logToDatabase": false,
+	"createDailyDatabaseCopy": false,
 	"graphDuration": 86400000,
 	"serverGraphDuration": 180000
 }

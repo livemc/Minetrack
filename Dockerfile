@@ -1,4 +1,4 @@
-FROM node:17.7.1
+FROM node:20.5.1
 
 ARG TINI_VER="v0.19.0"
 
@@ -9,7 +9,6 @@ RUN chmod +x /sbin/tini
 # install sqlite3
 RUN apt-get update \
  && apt-get install --quiet --yes --no-install-recommends sqlite3 \
- && apt-get install python -y \
  && apt-get install cmake --yes \
  && apt-get clean --quiet --yes \
  && apt-get autoremove --quiet --yes \
@@ -20,7 +19,8 @@ WORKDIR /usr/src/minetrack
 COPY . .
 
 # build minetrack
-RUN npm install --build-from-source \
+RUN npx update-browserslist-db@latest \
+ && npm install --build-from-source \
  && npm run build
 
 # run as non root

@@ -2,11 +2,13 @@ version: '3'
 
 services:
   minetrack:
-    build: .
+    image: minetrack:latest
     container_name: minetrack
-    dns:
-      - 8.8.8.8
-      - 1.1.1.1
     ports:
       - "80:8080"
+    volumes:
+      - ./config.json:/usr/src/minetrack/config.json
+      - ./database.sql:/usr/src/minetrack/database.sql
+      - ./servers.json:/usr/src/minetrack/servers.json
+      - ./favicons/:/usr/src/minetrack/favicons/
     restart: always
