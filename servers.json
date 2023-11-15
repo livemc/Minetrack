@@ -121,17 +121,6 @@
         "vkId": 96615701
     },
     {
-        "name": "HyPE Network",
-        "ip": "hy-pe.ru",
-        "favicon": "hypenetwork.png",
-        "color": "#FD00FA",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 7,
-        "vkId": 140142795
-    },
-    {
         "name": "InMine",
         "ip": "inmine.ru",
         "port": 19132,
@@ -209,15 +198,15 @@
         "vkId": 153740237
     },
     {
-        "name": "OasysPE",
-        "ip": "oasys-pe.com",
+        "name": "6Mine",
+        "ip": "6mine.net",
         "port": 19132,
-        "favicon": "oasys-pe.png",
-        "color": "#FAD808",
+        "favicon": "6mine.png",
+        "color": "#FAA908",
         "type": "PE",
 
-        "id": 12,
-        "vkId": 75215697
+        "id": 7,
+        "vkId": 223244021
     },
     {
         "name": "Phoenix",
