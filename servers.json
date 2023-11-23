@@ -44,17 +44,6 @@
         "vkId": 187931096
     },
     {
-        "name": "Antralia",
-        "ip": "antralia.net",
-        "favicon": "antralia.png",
-        "color": "#C8A8B7",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 19,
-        "vkId": 185728642
-    },
-    {
         "name": "BreadixWorld",
         "ip": "play.breadixpe.ru",
         "port": 19132,
