@@ -132,28 +132,6 @@
         "vkId": 100046228
     },
     {
-        "name": "IronMine",
-        "ip": "pe.ironmine.fun",
-        "favicon": "ironmine.png",
-        "color": "#01FF53",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 21,
-        "vkId": 175029127
-    },
-    {
-        "name": "Synapse PE",
-        "ip": "synapse-pe.fun",
-        "favicon": "synapsepe.png",
-        "color": "#FFA200",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 27,
-        "vkId": 198572464
-    },
-    {
         "name": "LOOT MC",
         "ip": "lootmc.com",
         "favicon": "lootmc.png",
