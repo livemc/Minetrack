@@ -5,12 +5,15 @@
 	},
 	"rates": {
 		"pingAll": 3000,
-		"connectTimeout": 2500
+		"connectTimeout": 200
 	},
 	"oldPingsCleanup": {
 		"enabled": false,
 		"interval": 3600000
 	},
+
+	"//first_raknet":  "If using JS implementation of RakNet, should we use workers? (This only affects the client)",
+	"useRaknetWorkers": false,
 
 	"//first_comment":  "Set default data provider for Minetrack",
 	"//second_comment": "- mysql (MYSQL Database)",
