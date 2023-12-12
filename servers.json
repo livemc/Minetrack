@@ -22,9 +22,9 @@
         "vkId": 55034095
     },
     {
-        "name": "AnanasMine",
-        "ip": "ananasmine.ru",
-        "favicon": "ananasmine.png",
+        "name": "AnMine",
+        "ip": "anmine.ru",
+        "favicon": "anmine.png",
         "color": "#876B6E",
         "port": 19132,
         "type": "PE",
