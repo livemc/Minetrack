@@ -5,7 +5,7 @@
 	},
 	"rates": {
 		"pingAll": 3000,
-		"connectTimeout": 200
+		"connectTimeout": 215
 	},
 	"oldPingsCleanup": {
 		"enabled": false,
