@@ -56,7 +56,7 @@
     },
     {
         "name": "DoshikMine",
-        "ip": "doshik.net",
+        "ip": "play.doshik.ru",
         "port": 19132,
         "favicon": "doshikmine.png",
         "color": "#803190",
@@ -88,6 +88,17 @@
         "vkId": 148855493
     },
     {
+        "name": "GreenWix BedWars",
+        "ip": "play.greenwix.fun",
+        "port": 6000,
+        "color": "#dd8639",
+        "favicon": "greenwix.png",
+        "type": "PE",
+
+        "id": 6,
+        "vkId": 194686342
+    },
+    {
         "name": "VaniLa PvP",
         "ip": "vanila-pvp.com",
         "port": 19132,
@@ -97,6 +108,17 @@
 
         "id": 28,
         "vkId": 211688340
+    },
+    {
+        "name": "MINEWELL",
+        "ip": "minewell.ru",
+        "port": 19132,
+        "color": "#6330a8",
+        "favicon": "minewell.png",
+        "type": "PE",
+
+        "id": 29,
+        "vkId": 198243542
     },
     {
         "name": "InMine",
