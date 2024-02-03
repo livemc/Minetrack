@@ -110,17 +110,6 @@
         "vkId": 170551284
     },
     {
-        "name": "IronMine",
-        "ip": "pe.ironmine.fun",
-        "favicon": "ironmine.png",
-        "color": "#01FF53",
-        "port": 19132,
-        "type": "PE",
-
-        "id": 21,
-        "vkId": 175029127
-    },
-    {
         "name": "Synapse PE",
         "ip": "synapse-pe.fun",
         "favicon": "synapsepe.png",
