@@ -88,9 +88,9 @@
         "vkId": 148855493
     },
     {
-        "name": "GreenWix BedWars",
+        "name": "GreenWix",
         "ip": "play.greenwix.fun",
-        "port": 6000,
+        "port": 19132,
         "color": "#dd8639",
         "favicon": "greenwix.png",
         "type": "PE",
@@ -240,5 +240,38 @@
 
         "id": 15,
         "vkId": 108607290
+    },
+    {
+        "name": "SoulsBurn",
+        "ip": "soulsburn.ru",
+        "port": 19132,
+        "color": "#e6040c",
+        "favicon": "soulsburn.png",
+        "type": "PE",
+
+        "id": 30,
+        "vkId": 220844761
+    },
+    {
+        "name": "RustMC",
+        "ip": "playrustmc.online",
+        "port": 19132,
+        "color": "#dd625d",
+        "favicon": "rustmc.png",
+        "type": "PE",
+
+        "id": 31,
+        "vkId": 218513250
+    },
+    {
+        "name": "PDALife",
+        "ip": "pdalife.fun",
+        "port": 19132,
+        "color": "#df696e",
+        "favicon": "pdalife.png",
+        "type": "PE",
+
+        "id": 32,
+        "vkId": 225281265
     }
 ]
