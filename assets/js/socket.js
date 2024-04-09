@@ -79,7 +79,7 @@ export class SocketManager {
 
             if (serverRegistration) {
               serverRegistration.handlePing(serverUpdate, payload.timestamp)
-              serverRegistration.updateServerStatus(serverUpdate, this._app.publicConfig.minecraftVersions)
+              serverRegistration.updateServerStatus(serverUpdate)
             }
           }
 

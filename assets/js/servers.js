@@ -2,7 +2,7 @@ import uPlot from 'uplot'
 
 import { RelativeScale } from './scale'
 
-import { formatNumber, formatTimestampSeconds, formatDate, formatMinecraftServerAddress, formatMinecraftVersions } from './util'
+import { formatNumber, formatTimestampSeconds, formatDate, formatMinecraftServerAddress } from './util'
 import { uPlotTooltipPlugin } from './plugins'
 
 import MISSING_FAVICON from 'url:../images/missing_favicon.svg'
@@ -220,7 +220,7 @@ export class ServerRegistration {
     element.style.display = 'none'
   }
 
-  updateServerStatus (ping, minecraftVersions) {
+  updateServerStatus (ping) {
     if (ping.recordData) {
       this._renderValue('record', (element) => {
         if (ping.recordData.timestamp > 0) {

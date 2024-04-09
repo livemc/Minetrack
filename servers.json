@@ -273,11 +273,5 @@
 
         "id": 32,
         "vkId": 225281265
-    },
-    {
-        "name": "CubeCraft",
-        "ip": "play.cubecraft.net",
-        "type": "PC",
-        "color": "#176093"
     }
 ]
