@@ -221,10 +221,6 @@ export class ServerRegistration {
   }
 
   updateServerStatus (ping, minecraftVersions) {
-    if (ping.versions) {
-      this._renderValue('version', formatMinecraftVersions(ping.versions, minecraftVersions[this.data.type]) || '')
-    }
-
     if (ping.recordData) {
       this._renderValue('record', (element) => {
         if (ping.recordData.timestamp > 0) {

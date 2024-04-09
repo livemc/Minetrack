@@ -3,16 +3,14 @@
   "version": "5.6.1",
   "description": "A Minecraft server tracker that lets you focus on the basics.",
   "dependencies": {
-    "bedrock-protocol": "^3.5.1",
-    "finalhandler": "^1.1.2",
-    "mcping-js": "^1.4.1",
+    "@minescope/mineping": "^1.4.1",
+    "finalhandler": "^1.2.0",
     "mysql": "^2.18.1",
-    "request": "2.88.2",
-    "serve-static": "^1.14.1",
-    "sqlite3": "^5.1.5",
+    "serve-static": "^1.15.0",
+    "sqlite3": "^5.1.7",
     "uplot": "1.0.11",
-    "winston": "^2.4.4",
-    "ws": "^7.4.6"
+    "winston": "^2.4.7",
+    "ws": "^7.5.9"
   },
   "repository": {
     "type": "git",
@@ -39,22 +37,22 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.21.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "parcel": "^2.8.0"
+    "eslint-plugin-promise": "^4.3.1",
+    "parcel": "^2.12.0"
   },
   "scripts": {
     "build": "eslint assets/js/*.js && parcel build assets/html/index.html --dist-dir dist",
     "dev": "parcel build assets/html/index.html --no-optimize --dist-dir dist"
   },
   "optionalDependencies": {
-    "bufferutil": "^4.0.1",
-    "utf-8-validate": "^5.0.2"
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10"
   }
 }
