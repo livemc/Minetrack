@@ -28,7 +28,7 @@
 		"db": "YourDBNameGoesHere"
 	},
 	"logFailedPings": true,
-	"logToDatabase": true,
+	"logToDatabase": false,
 	"createDailyDatabaseCopy": false,
 	"graphDuration": 86400000,
 	"serverGraphDuration": 180000
