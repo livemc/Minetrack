@@ -14,14 +14,13 @@ export class GraphDisplayManager {
   constructor (app) {
     this._app = app
     this._graphData = []
-    this._percentageGraphData = []
     this._graphTimestamps = []
     this._hasLoadedSettings = false
     this._initEventListenersOnce = false
     this._showOnlyFavorites = false
   }
 
-  addGraphPoint (timestamp, playerCounts, playerPercentages) {
+  addGraphPoint (timestamp, playerCounts) {
     if (!this._hasLoadedSettings) {
       // _hasLoadedSettings is controlled by #setGraphData
       // It will only be true once the context has been loaded and initial payload received
@@ -41,10 +40,6 @@ export class GraphDisplayManager {
       this._graphData[i].push(playerCounts[i])
     }
 
-    for (let i = 0; i < playerPercentages.length; i++) {
-      this._percentageGraphData[i].push(playerPercentages[i])
-    }
-
     // Trim all data arrays to only the relevant portion
     // This keeps it in sync with backend data structures
     const graphMaxLength = this._app.publicConfig.graphMaxLength
@@ -54,12 +49,6 @@ export class GraphDisplayManager {
     }
 
     for (const series of this._graphData) {
-      if (series.length > graphMaxLength) {
-        series.splice(0, series.length - graphMaxLength)
-      }
-    }
-
-    for (const series of this._percentageGraphData) {
       if (series.length > graphMaxLength) {
         series.splice(0, series.length - graphMaxLength)
       }
@@ -128,10 +117,9 @@ export class GraphDisplayManager {
   }
 
   getVisibleGraphData () {
-    const graphData = this._app.displayController.isShowing('Count') ? this._graphData : this._percentageGraphData
     return this._app.serverRegistry.getServerRegistrations()
       .filter(serverRegistration => serverRegistration.isVisible)
-      .map(serverRegistration => graphData[serverRegistration.serverId] || [])
+      .map(serverRegistration => this._graphData[serverRegistration.serverId])
   }
 
   getPlotSize () {
@@ -144,12 +132,12 @@ export class GraphDisplayManager {
   getGraphData () {
     return [
       this._graphTimestamps,
-      ...(this._app.displayController.isShowing('Count') ? this._graphData : this._percentageGraphData)
+      ...this._graphData
     ]
   }
 
   getGraphDataPoint (serverId, index) {
-    const graphData = (this._app.displayController.isShowing('Count') ? this._graphData : this._percentageGraphData)[serverId]
+    const graphData = this._graphData[serverId]
     if (graphData && index < graphData.length && typeof graphData[index] === 'number') {
       return graphData[index]
     }
@@ -186,7 +174,7 @@ export class GraphDisplayManager {
     return closestSeriesIndex
   }
 
-  buildPlotInstance (timestamps, playerCount, playerPercentage) {
+  buildPlotInstance (timestamps, data) {
     // Lazy load settings from localStorage, if any and if enabled
     if (!this._hasLoadedSettings) {
       this._hasLoadedSettings = true
@@ -194,7 +182,7 @@ export class GraphDisplayManager {
       this.loadLocalStorage()
     }
 
-    for (const playerCounts of playerCount) {
+    for (const playerCounts of data) {
       // Each playerCounts value corresponds to a ServerRegistration
       // Require each array is the length of timestamps, if not, pad at the start with null values to fit to length
       // This ensures newer ServerRegistrations do not left align due to a lower length
@@ -207,27 +195,14 @@ export class GraphDisplayManager {
       }
     }
 
-    for (const playerPercentages of playerPercentage) {
-      const lengthDiff = timestamps.length - playerPercentages.length
-
-      if (lengthDiff > 0) {
-        const padding = Array(lengthDiff).fill(null)
-
-        playerPercentages.unshift(...padding)
-      }
-    }
-
     this._graphTimestamps = timestamps
-    this._graphData = playerCount
-    this._percentageGraphData = playerPercentage
-
-    const showingCount = this._app.displayController.isShowing('Count')
+    this._graphData = data
 
     const series = this._app.serverRegistry.getServerRegistrations().map(serverRegistration => {
       return {
         stroke: serverRegistration.data.color,
         width: 2,
-        value: (_, raw) => `${raw + showingCount ? ' Players' : '%'}`,
+        value: (_, raw) => `${formatNumber(raw)} Players`,
         show: serverRegistration.isVisible,
         spanGaps: true,
         points: {
@@ -238,10 +213,6 @@ export class GraphDisplayManager {
 
     const tickCount = 10
     const maxFactor = 4
-
-    if (typeof this._plotInstance !== 'undefined') {
-      this._plotInstance.destroy()
-    }
 
     // eslint-disable-next-line new-cap
     this._plotInstance = new uPlot({
@@ -270,7 +241,7 @@ export class GraphDisplayManager {
                   serverName = `<span class="${this._app.favoritesManager.getIconClass(true)}"></span> ${serverName}`
                 }
 
-                return `${serverName}: ${formatNumber(point) + (showingCount ? ' Players' : '%')}`
+                return `${serverName}: ${formatNumber(point)}`
               }).join('<br>') + `<br><br><strong>${formatTimestampSeconds(this._graphTimestamps[idx])}</strong>`
 
             this._app.tooltip.set(pos.left, pos.top, 10, 10, text)
@@ -477,7 +448,6 @@ export class GraphDisplayManager {
 
     this._graphTimestamps = []
     this._graphData = []
-    this._percentageGraphData = []
     this._hasLoadedSettings = false
 
     // Fire #clearTimeout if the timeout is currently defined

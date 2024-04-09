@@ -70,8 +70,6 @@ export class SocketManager {
           break
 
         case 'updateServers': {
-          const totalPlayers = payload.updates.map(update => update.playerCount).reduce((sum, x) => sum + x)
-
           for (let serverId = 0; serverId < payload.updates.length; serverId++) {
             // The backend may send "update" events prior to receiving all "add" events
             // A server has only been added once it's ServerRegistration is defined
@@ -87,9 +85,7 @@ export class SocketManager {
 
           // Bulk add playerCounts into graph during #updateHistoryGraph
           if (payload.updateHistoryGraph) {
-            const playerCounts = Object.values(payload.updates).map(update => update.playerCount)
-            const playerPercentages = playerCounts.map(playerCount => Math.round((playerCount / totalPlayers) * 1000) / 10)
-            this._app.graphDisplayManager.addGraphPoint(payload.timestamp, playerCounts, playerPercentages)
+            this._app.graphDisplayManager.addGraphPoint(payload.timestamp, Object.values(payload.updates).map(update => update.playerCount))
 
             // Run redraw tasks after handling bulk updates
             this._app.graphDisplayManager.redraw()
@@ -102,15 +98,7 @@ export class SocketManager {
         }
 
         case 'historyGraph': {
-          // We cant just use .fill([]) since the array is passed by reference to all elements
-          const percentageGraphData = Array(payload.graphData.length).fill(null).map(() => [])
-          for (let i = 0; i < payload.graphData[0]?.length; i++) {
-            const totalPlayers = payload.graphData.map(server => server[i]).reduce((sum, x) => sum + x)
-            payload.graphData.forEach((server, index) => {
-              percentageGraphData[index].push(Math.round((server[i] / totalPlayers) * 1000) / 10)
-            })
-          }
-          this._app.graphDisplayManager.buildPlotInstance(payload.timestamps, payload.graphData, percentageGraphData)
+          this._app.graphDisplayManager.buildPlotInstance(payload.timestamps, payload.graphData)
 
           // Build checkbox elements for graph controls
           let lastRowCounter = 0
