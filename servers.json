@@ -242,17 +242,6 @@
         "vkId": 108607290
     },
     {
-        "name": "SoulsBurn",
-        "ip": "soulsburn.ru",
-        "port": 19132,
-        "color": "#e6040c",
-        "favicon": "soulsburn.png",
-        "type": "PE",
-
-        "id": 30,
-        "vkId": 220844761
-    },
-    {
         "name": "RustMC",
         "ip": "play.rustmc.online",
         "port": 19132,
