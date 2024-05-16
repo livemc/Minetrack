@@ -251,27 +251,5 @@
 
         "id": 31,
         "vkId": 218513250
-    },
-    {
-        "name": "PDALife",
-        "ip": "pdalife.fun",
-        "port": 19132,
-        "color": "#df696e",
-        "favicon": "pdalife.png",
-        "type": "PE",
-
-        "id": 32,
-        "vkId": 225281265
-    },
-    {
-        "name": "Hrupix",
-        "ip": "hrupix.ru",
-        "port": 19132,
-        "color": "#cc338b",
-        "favicon": "hrupix.png",
-        "type": "PE",
-
-        "id": 33,
-        "vkId": 221250468
     }
 ]
